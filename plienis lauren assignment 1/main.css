@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "dreaming-outloud-sans", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #262b65;
+}
+h1, h2 {
+font-family: "dreaming-outloud-script", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #262b65;
+}
+/*body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}/*
+/*h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: normal;
+}*/
+a {
+    color: #262b65;
+    text-decoration: none;
+}
+/*END OF RESET*/
+body{
+    background-color:#dcbae4;
+    margin: 0px auto 0px auto;
+    max-width:1500px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+footer img {
+    height: 30px;
+    margin-left: 10px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: x-large;
+}
+nav a{
+    margin-left: 10px;
+}
+.hero {
+    max-width: 800px;
+    margin: 0px auto;
+    
+}
+.hero img{
+    width:100%;
+}
+nav a:hover{
+    color:#8684b7;
+}
+
+/* MAIN */
+
+main {
+    background-color: rgb(180, 180, 180);
+    padding-bottom: 30px;
+    border-radius: 24px;
+    overflow: hidden;
+
+}
+main p {
+    margin: 10px 30px 10px 30px;
+    text-align: left;
+}
+.main-flex{
+    display: flex;
+    padding: 12px;
+}
+.main-flex img {
+    width: 50%;
+}
+.main-flex p {
+    margin: 0px
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 2px solid #262b65;
+    margin-top: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    height: 30px;
+    width: 30px;
+    margin-left: 12px;
+}
+
+/* ARTICLES */
+
+article {
+    background-color: #ffd8eb;
+    width: 350px;
+    border-radius: 24px;
+    flex-wrap: wrap;
+    margin: 15px 15px
+}
+article h2 {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0 0 0 10px  
+}
+article div {
+    margin: 0px 16px 16px 16px;
+}
+article img {
+    padding: 25px 25px 0px 25px;
+}
+.column{
+    border: 5px solid #262b65;
+    box-shadow: 0 10px 10px 0 #262b6569;
+}
+.main-items{
+    margin: 5px 5px;
+    border: 8px solid #262b65;
+    padding: 20px 10px;
+    box-shadow: 0 10px 10px 0 #262b6569;
+    max-width: 1200px;
+}
+main{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:stretch;
+}
+/* MAIN HOME */
+
+
+
+/* MAIN ABOUT */
+
+
+
+/* MAIN SHOP */
+
+header{
+font-size: xx-large;
+}
+
+/* MAIN DETAILS */
+
+
+
+/* MAIN CHECKOUT */
+
+/* FORM  #8684b7 */
+.section-form{
+    background-color: #edb5d0;
+    padding: 20px 80px 20px 80px;
+    width: 700px;
+    margin: 0px auto;
+    border: 5px solid #262b65;
+}
+.section-form h2{
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.section-form input{
+    border: 2px solid #262b65;
+    height: 24px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 4px;
+    width: 100%;
+}
+.section-form textarea{
+    border: 2px solid #262b65;
+    font-size: 16px;
+    margin-bottom: 8px;
+    padding: 4px;
+    width: 100%;
+}
+.button {
+    background-color: #a290c4;
+    padding: 10px 14px 10px 14px;
+    margin: 0px auto;
+    width: fit-content;
+    border-radius: 8px;
+    color: #262b65;
+}
+.button:hover{
+    opacity: 50%;
+}
