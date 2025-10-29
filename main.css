@@ -70,7 +70,8 @@ main {
     padding-bottom: 30px;
     border-radius: 24px;
     overflow: hidden;
-
+    border:8px solid #262b65;
+    box-shadow: 0 10px 10px 0 #262b6569;
 }
 main p {
     margin: 10px 30px 10px 30px;
@@ -104,24 +105,34 @@ footer img {
 }
 
 /* ARTICLES */
-
+/* MAIN SHOP */
 article {
     background-color: #ffd8eb;
     width: 350px;
+    height: 850px;
     border-radius: 24px;
     flex-wrap: wrap;
     margin: 15px 15px;
+    border: 5px solid #262b65;
+    box-shadow: 0 10px 10px 0 #262b6569;
 }
 article h2 {
     font-size: 2em;
     font-weight: bold;
-    padding: 0 0 0 10px  
+    padding: 0 0 0 10px;
+    text-align: center;
+}
+article h3 {
+    font-weight: bold;
+    padding: 0 0 0 10px;
+    text-align: center;
 }
 article div {
     margin: 0px 16px 16px 16px;
 }
 article img {
-    padding: 25px 25px 0px 25px;
+    border:5px solid #262b65;
+    margin: 25px 25px 0px 20px;
 }
 .column{
     border: 5px solid #262b65;
@@ -142,21 +153,38 @@ main{
 }
 /* MAIN HOME */
 
-
-
 /* MAIN ABOUT */
+.main-about{
+    margin: 5px 5px;
+    border: 8px solid #262b65;
+    padding: 50px 10px;
+    box-shadow: 0 10px 10px 0 #262b6569;
+    max-width: 1800px;
+    flex-wrap: wrap;
+    align-items:stretch;
+    display:flex;
 
-
-
-/* MAIN SHOP */
+}
+.main-about img{
+    max-width: 1200px;
+    border:5px solid #262b65;
+}
+.main-about h2{
+    text-align:center;
+    font-size: 2.25em;
+    width: 1800px;
+    padding-top: 20px;
+}
+.main-about p{
+    padding-top: 30px;
+    max-width: 1000px;
+    font-size:1.25em;
+}
 
 header{
 font-size: xx-large;
+text-align:center
 }
-
-/* MAIN DETAILS */
-
-
 
 /* MAIN CHECKOUT */
 
@@ -167,8 +195,9 @@ font-size: xx-large;
     width: 700px;
     margin: 0px auto;
     border: 5px solid #262b65;
+    box-shadow: 0 10px 10px 0 #262b6569;
 }
-.section-form h2{
+.section-form h1{
     font-size: 2.5em;
     font-weight: bold;
     text-align: center;
@@ -196,7 +225,23 @@ font-size: xx-large;
     width: fit-content;
     border-radius: 8px;
     color: #262b65;
+    border: 2px solid #262b65;
+    align-items: flex-end;
 }
 .button:hover{
     opacity: 50%;
+}
+.section-form h2{
+    text-align: center;
+    font-style: bold;
+    font-size: 2em;
+}
+.section-form p{
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+.section-form h4{
+    text-align: center;
+    font-size: 1.5em;
 }
